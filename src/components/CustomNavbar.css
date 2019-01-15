@@ -32,7 +32,7 @@ nav.navbar, .navbar-default {
   }
   
   .navbar-default .navbar-toggle .icon-bar {
-    background-color: white;
+    background-color: rgb(133, 253, 183);
   }
   
   .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {

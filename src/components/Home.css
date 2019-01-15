@@ -3,6 +3,16 @@
   vertical-align: middle;
 }
 
+.message {
+  color: black;
+}
+
+.message:hover {
+  color: rgb(133, 253, 183);
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .project-pic {
   width: 100%;
   margin-bottom: 2em;
@@ -50,24 +60,4 @@ h3 {
 
 h4 {
   margin-bottom: .5em;
-}
-
-.hero-bar {
-  background: rgb(133, 253, 183);
-  color: #fff;
-  position: relative;
-  z-index: 1;
-}
-.hero-bar:after {
-  background: inherit;
-  bottom: 0;
-  content: '';
-  display: block;
-  height: 50%;
-  left: 0;
-  position: absolute;
-  right: 0;
-  transform: skewY(-1.5deg);
-  transform-origin: 100%;
-  z-index: -1;
 }

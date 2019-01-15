@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
-import './App.css';
 import Home from './components/Home';
 import Navbar from './components/CustomNavbar';
-import SimpleTransitions from './components/SimpleTransitions';
+import Contact from './components/Contact';
 import ServiceHub from './components/ServiceHub';
+import SimpleTransitions from './components/SimpleTransitions';
+import './App.css';
 
 class App extends Component {
   render() {
@@ -13,8 +14,9 @@ class App extends Component {
         <div>
           <Navbar/>
           <Route exact path="/" component={Home} />
-          <Route path="/SimpleTransitions" component={SimpleTransitions} />
+          <Route path="/Contact" component={Contact} />
           <Route path="/ServiceHub" component={ServiceHub} />
+          <Route path="/SimpleTransitions" component={SimpleTransitions} />
         </div>
       </Router>
     );
