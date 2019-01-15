@@ -1,0 +1,24 @@
+.screenshot {
+    width: 100%;
+    border-radius: 0;
+    margin-bottom: 2em;
+    box-shadow: 10px 10px 5px #ccc;
+	-moz-box-shadow: 10px 10px 5px #ccc;
+	-webkit-box-shadow: 10px 10px 5px #ccc;
+	-khtml-box-shadow: 10px 10px 5px #ccc;
+}
+
+.screenshot:hover {
+    box-shadow: 10px 10px 5px rgba(155, 153, 153, 0.747);;
+	-moz-box-shadow: 10px 10px 5px rgba(155, 153, 153, 0.747);
+	-webkit-box-shadow: 10px 10px 5px rgba(155, 153, 153, 0.747);;
+	-khtml-box-shadow: 10px 10px 5px rgba(155, 153, 153, 0.747);
+}
+
+h4 {
+    font-weight: 700;
+}
+
+p {
+    margin-bottom: 2em;
+}
