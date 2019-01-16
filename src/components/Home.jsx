@@ -29,31 +29,30 @@ class Home extends Component {
                 </Grid>
 
                 <Grid>
-                    <h2>Projects</h2>
-                    <Row>
-                        <Col xs={12} sm={6} className="project-wrapper">
-                            <Link to={'/SimpleTransitions'} id="link">
-                                <Image src="assets/SimpleTransitionsCover.png" className="project-pic" alt="..." />
-                            </Link>
-                        </Col>
-                        <Col xs={12} sm={6} className="project-wrapper">
-                            <p>Simple Transitions helps you plan for your future - or recover from unexpected turns. It is an information platform that consolidates the red tape of bureacratic processes to help you cut it all at once.</p>
-                        </Col>
-                    </Row>
-                    <Row>
-                        <Col xs={12} sm={6} className="project-wrapper">
+                    <h2 id="projects">Projects</h2>
+                    <Row className="project-wrapper">
+                        <Col xs={12} sm={6}>
                             <Link to={'/ServiceHub'} id="link">
                                 <Image src="assets/ServiceHubCover.png" className="project-pic" alt="..."/>
                             </Link>
                         </Col>
-                        <Col xs={12} sm={6} className="project-wrapper">
+                        <Col xs={12} sm={6}>
                             <p>ServiceHub is the marketplace for markets. Individuals are given the power to spin up global financial or alternative markets on-demand, covering everything from stock options to racetrack wagers.</p>  
                         </Col>
                     </Row>
-
+                    <Row className="project-wrapper">
+                        <Col xs={12} sm={6}>
+                            <Link to={'/SimpleTransitions'} id="link">
+                                <Image src="assets/SimpleTransitionsCover.png" className="project-pic" alt="..." />
+                            </Link>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <p>Simple Transitions helps you plan for your future - or recover from unexpected turns. It is an information platform that consolidates the red tape of bureacratic processes to help you cut it all at once.</p>
+                        </Col>
+                    </Row>
                     <h2>Get in touch.</h2>
                     <Row>
-                        <Col xs={12} sm={6} className="project-wrapper">
+                        <Col xs={12} sm={6}>
                             <Link to={'/Contact'} id="link" className='message'>
                                 <p>Send me a message.</p>
                             </Link>

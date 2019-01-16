@@ -1,10 +1,9 @@
-.project-wrapper {
-  margin-bottom: 2em;
-  vertical-align: middle;
-}
-
 .message {
   color: black;
+}
+
+.project-wrapper {
+  margin-bottom: 3em;
 }
 
 .message:hover {

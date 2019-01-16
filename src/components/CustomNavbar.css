@@ -1,6 +1,7 @@
 nav.navbar, .navbar-default {
     background-color: white !important;
     border: 0;
+    text-align: right;
     -webkit-box-shadow: none;
     box-shadow: none;
   }
@@ -15,14 +16,6 @@ nav.navbar, .navbar-default {
     color: black;
   }
 
-  /*
-  .navbar-brand {
-    position: absolute;
-    left: 50%;
-    margin-left: -50px !important;
-    display: block;
-  }
-  */
   .navbar-default .navbar-brand {
     color: black;
   }
@@ -47,4 +40,16 @@ nav.navbar, .navbar-default {
   .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
     color: rgb(133, 253, 183);
     background-color: transparent;
+  }
+
+  .hash-link {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+  .hash-link:hover, .hash-link:active, .hash-link:focus {
+    color: rgb(133, 253, 183);
+    background-color: transparent;
+    text-decoration: none;
   }
