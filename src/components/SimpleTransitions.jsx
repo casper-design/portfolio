@@ -44,11 +44,16 @@ class SimpleTransitions extends Component {
                     </Row>
                 </Grid>
                 <Grid>
-                    <h2>Next Project</h2>
+                    <h2>More Projects</h2>
                     <Row>
                         <Col xs={12} sm={6}>
                             <Link to={'/ServiceHub'} id="link">
                                 <Image src="assets/ServiceHubCover.png" className="next-project" alt="..." />
+                            </Link>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <Link to={'/Spotify'} id="link">
+                                <Image src="assets/SpotifyCover.png" className="next-project" alt="..." />
                             </Link>
                         </Col>
                     </Row>

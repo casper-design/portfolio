@@ -32,6 +32,16 @@ class Home extends Component {
                     <h2 id="projects">Projects</h2>
                     <Row className="project-wrapper">
                         <Col xs={12} sm={6}>
+                            <Link to={'/Spotify'} id="link">
+                                <Image src="assets/SpotifyCover.png" className="project-pic" alt="..."/>
+                            </Link>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <p>A personal take on creating home for artists on Spotify. The goal is to give artists a more personal way to interact with their audience.</p>  
+                        </Col>
+                    </Row>
+                    <Row className="project-wrapper">
+                        <Col xs={12} sm={6}>
                             <Link to={'/ServiceHub'} id="link">
                                 <Image src="assets/ServiceHubCover.png" className="project-pic" alt="..."/>
                             </Link>

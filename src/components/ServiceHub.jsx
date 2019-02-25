@@ -44,11 +44,16 @@ class ServiceHub extends Component {
                     </Row>
                 </Grid>
                 <Grid>
-                    <h2>Next Project</h2>
+                    <h2>More Projects</h2>
                     <Row>
-                        <Col xs={12} sm={12}>
+                        <Col xs={12} sm={6}>
                             <Link to={'/SimpleTransitions'} id="link">
                                 <Image src="assets/SimpleTransitionsCover.png" className="next-project-hub" alt="..." />
+                            </Link>
+                        </Col>
+                        <Col xs={12} sm={6}>
+                            <Link to={'/Spotify'} id="link">
+                                <Image src="assets/SpotifyCover.png" className="next-project-hub" alt="..." />
                             </Link>
                         </Col>
                     </Row>
