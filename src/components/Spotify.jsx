@@ -48,21 +48,41 @@ class Spotify extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xs={12} sm={12}>
+                        <Col xs={12} sm={3}>
+                            <h4>Discography</h4>
+                            <p>An Artist should be able to customize their discography. Create albums, upload artwork and tracks, add lyrics - all within the client.</p>
+                        </Col>
+                        <Col xs={12} sm={9}>
                             <Image src="./assets/Spotify/Discography.png" className="screenshot" />
                         </Col>
-                        {/* <Col xs={12} sm={12}>
-                            <Image src="./assets/Spotify/The Band.png" className="screenshot" />
-                        </Col> */}
                     </Row>
-                    {/* <Row>
-                        <Col xs={12} sm={12}>
+                    <Row>
+                        <Col xs={12} sm={3}>
+                            <h4>The Band</h4>
+                            <p>An Artist should be able to manage their members and profiles from within the client. This could be through each member, or through their manager.</p>
+                        </Col>
+                        <Col xs={12} sm={9}>
+                            <Image src="./assets/Spotify/The Band.png" className="screenshot" />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={3}>
+                            <h4>Merchandise</h4>
+                            <p>Why use independent merch stores when your audience could find their new favorite band tee attached to their top played? This could also allow for a textiles partnership within Spotify.</p>
+                        </Col>
+                        <Col xs={12} sm={9}>
                             <Image src="./assets/Spotify/Merchandise.png" className="screenshot" />
                         </Col>
-                        <Col xs={12} sm={12}>
+                    </Row>
+                    <Row>
+                        <Col xs={12} sm={3}>
+                            <h4>Concerts</h4>
+                            <p>This data is already populated by Spotify's ticketing partners. Let the Artist see how many fans are attending the next show! This could also be another potential form factor for fan communication.</p>
+                        </Col>
+                        <Col xs={12} sm={9}>
                             <Image src="./assets/Spotify/Concerts.png" className="screenshot" />
                         </Col>
-                    </Row> */}
+                    </Row>
                 </Grid>
                 <Grid>
                     <h2>More Projects</h2>
